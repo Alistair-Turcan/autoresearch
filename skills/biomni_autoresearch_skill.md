@@ -6,7 +6,7 @@ description: Use this skill when Biomni needs to set up, supervise, document, or
 
 # AUTORESEARCH for Biomni
 
-Use this skill when a user asks Biomni to “run AutoResearch,” “set up autoresearch for this task,” “let an agent improve this model overnight,” or provides an API key and asks Biomni to oversee iterative research experiments.
+Use this skill when a user asks Biomni to “run AutoResearch,” “set up autoresearch for this task,” “let an agent improve this model overnight,” or provides an API key and asks Biomni to oversee iterative research experiments. To be clear, you are running the autoresearch repository code, not emulating it yourself. Do not propose your own optimizations, let autoresearch do it all.
 
 AutoResearch is not a conventional optimizer API. It is a **repository-local autonomous research loop** driven by a task-specific `program.md`, a protected evaluation harness, an editable implementation file, git commits, repeated runs, and a results log. Biomni’s job is to set up the loop safely, verify it works before spending LLM/GPU budget, supervise progress honestly, and leave behind a reproducible record.
 
